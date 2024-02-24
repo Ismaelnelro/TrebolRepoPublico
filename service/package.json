@@ -1,0 +1,58 @@
+{
+  "name": "trebol_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "pending.."
+  },
+  "keywords": [
+    "tasks",
+    "app",
+    "todo",
+    "management",
+    "organize"
+  ],
+  "engines": {
+    "node": ">=v18.16.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Ismael Rosas",
+  "license": "ISC",
+  "dependencies": {
+    "@colors/colors": "^1.6.0",
+    "@types/express": "^4.17.17",
+    "@types/express-http-proxy": "^1.6.3",
+    "@types/http-proxy": "^1.17.11",
+    "@types/node": "^20.4.9",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1.9.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

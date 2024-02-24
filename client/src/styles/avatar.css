@@ -1,0 +1,25 @@
+#avatar_perfil {
+  width: 9rem;
+  min-width: 9rem;
+  border-radius: 100%;
+  border: 3px solid black;
+  box-shadow: 0.35em 0.20em;
+}
+
+#avatar_perfil:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+
+#avatar_perfil  img{
+  width: 8rem;
+  height: 8rem;
+  min-width: 8rem;
+  min-height: 8rem;
+}
+
+/* #avatar_perfil:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.25em 0.15em;
+} */

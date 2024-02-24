@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://github.com/Ismaelnelro/Trebol/blob/develop/client/public/assets/brand/logo.png?raw=true"/>
 </p>
@@ -82,13 +83,19 @@
 3.  Username capitalizer  no se identifican al buscar un perfil de username 
 4.  Al logear o registrarse se mueve el formulario
 5.  Password debil
-7.  Identificar mejor el acceso a settings
-8.  Avatar en vista perfilGuess no aparece
-9.  Retorno desde vista perfilGuess a home o seccion de usuario logeado
-10.  Correccion de transiciones al realizar peticiones o cambiar de vistas
+7.  Identificar mejor el acceso a settings 
 
 ## BUGS ENCONTRADOS BACKEND
 1.  Validar correctamente las credenciales
 2.  Creacion de cuentas con mismo email (Email duplicado)
 3.  Evitar userName duplicados
 4.  Validar Passwords mas fuertes
+
+
+## FEATURES
+1.  Eliminar cuenta
+2.  Retorno a LandingPage desde Login o Registro
+3.  Busqueda de perfiles desde LandingPage y otros sectores
+4.  Notificacion de creacion de cuenta en correo electronico
+5.  Juego didactico de competicion entre usuarios (Futuro)
+6.  Registro agregar userName

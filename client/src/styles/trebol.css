@@ -1,0 +1,34 @@
+#trebol {
+  width: 100%;
+  min-height: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 3px solid black;
+  box-shadow: 0.45em 0.25em;
+  background-color: white;
+  margin: 0 auto;
+}
+
+#trebol .img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#trebol .img img {
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+#trebol .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black
+}

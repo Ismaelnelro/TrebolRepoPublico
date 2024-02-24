@@ -9,6 +9,9 @@
 <hr/>
 
 
+# NOTA
+Este repo puede que este desactualizado en relacion  al deploy
+
 ## Características
 
 - **Registro de Cuenta**: Regístrate utilizando tu correo electrónico, nombre y contraseña.
